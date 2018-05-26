@@ -1,0 +1,98 @@
+#page-title {
+	text-align: center;
+	color: white;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+#header {
+	background-color:rgba(86,98,255,1.00);
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	min-height: 13%;
+}
+
+a.body-row {
+	display: block;
+	text-decoration: none;
+}
+
+.header-row {
+	text-align: center;
+	height: 50px;
+	vertical-align: center;
+}
+
+.header-row.header-row-large {
+	height: 75px;
+}
+
+.header-row > div {
+	display: inline-block;
+}
+
+.header-row-large .header-row-text {
+	line-height: 75px;
+	font-size: 40px;
+}
+
+.header-row-large .header-row-icon {
+	max-height: 40px;
+	max-width: 40px;
+}
+
+.header-row-icon {
+	max-height: 30px;
+	max-width: 30px;
+	margin-right: 10px;
+}
+
+.header-row-text {
+	color: white;
+	line-height: 50px;
+	font-size: 30px;
+}
+
+#body {
+	height: 70%;
+	text-align: center;
+}
+
+.body-row {
+	margin: 30px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 30px;
+	background-color: white;
+	color: blue;
+	border-radius: 20px;
+	user-select: none;
+}
+
+.body-row-selected {
+	background-color: red;
+	color: white;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: blue;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
+}
+
+.body-time-row {
+	width: 40%;
+	margin: 5px;
+	display: inline-block;
+}
+
+.body-row-disabled {
+	background-color: grey !important;
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Status</title>
+		<link rel="stylesheet" href="css/user.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div id="header">
+			<div id="page-title"> Wire Transfer</div>
+			<div class="header-row">
+				<img class="header-row-icon" src="images/marker.png">
+				<div class="header-row-text">1293 Bloor St W</div>
+			</div>
+			<div class="header-row header-row-large">
+				<img class="header-row-icon" src="images/clock.png">
+				<div class="header-row-text">23:59:59</div>
+			</div>
+		</div>
+	
+		<div id="body">
+			<div class="body-row body-row-selected">
+				Still on time
+			</div>
+			<div class="body-row">
+				Going to be late
+			</div>
+			<div class="body-row">
+				Can't make it
+			</div>
+		</div>
+		<script type="text/javascript">
+			window.userState = "status";
+		</script>
+		<script src="js/jquery-1.11.3.min.js"></script>		
+		<script type="text/javascript" src="js/user.js"></script>		
+	</body>
+</html>

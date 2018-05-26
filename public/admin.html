@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Queue Admin</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/admin.css">
+  	</head>
+	<body>
+		<div class="page-header" style="display: inline-flex">
+	  		<h2> Customer Service Management System</h2>
+		</div>
+		<div class="no-customer-row">
+			<h1 class="text-center">No  Current Customer</h1>
+		</div>
+		<div class="current-customer-row">
+			<h1 class="text-center">Current Customer</h1>
+			<div class="row">
+				<div class="col-lg-4 big-image-column">
+					<img>
+				</div>
+				<div class="col-lg-4">
+					<h4>Name</h4>
+					<p class="customer-name">Chris Hemsworth</p>
+					<h4>Account Number</h4>
+					<p>9878 654 3221</p>
+					<h4>Issue</h4>
+					<p class="customer-issue">Wired Transfer</p>
+				</div>
+				<div class="col-lg-3">
+					<h4>Forms</h4>
+					<p class="customer-forms">Yes</p>
+					<br>
+					<p class="btn btn-primary" onclick="finishAppointment()">Customer has been Served</p>
+				</div>
+			</div>
+		</div>
+		<div class="customer-queue-row">
+			<h1 class="text-center NoCustomer">Customer Queue</h1>
+			<br>
+			<div class="row">
+				<div class="card customer-card" id="customer-card-example" style="display: none">
+					<div class="card-image-container">					
+						<img class="card-img-top" alt="Card image cap">
+					</div>
+					<div class="card-body">
+						<h5 class="card-title customer-name">Robert Downey Jr.</h5>
+						<p class="card-text">Issue: <span class="customer-issue"></span></p>
+						<p class="card-text">Forms: <span class="customer-forms"></span></p>
+						<p class="card-text">Scheduled For: <span class="customer-time"></span></p>
+						<p class="card-text">Status: <span class="customer-status"></span></p>						
+						<p class="customer-checkin btn btn-primary">Check-In</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/admin.js"></script>
+	</body>
+</html>
